@@ -19,7 +19,23 @@ const router = VueRouter.createRouter({
     // hash模式
     history: VueRouter.createWebHashHistory(),
     // 路由
-    routes: routes
+    routes: routes,
+    // 页面跳转后的滚动
+    scrollBehavior (to, from, savedPosition) {
+      // 默认滚动到页面
+      const result = {
+        // app元素
+        el: '#app',
+        // 相对位置
+        top: 0
+      }
+      if (to.path == "/shopping-detail") {
+        // 选择搜索框底部的元素
+        result.el = "#anchor-point";
+      }
+      // return 期望滚动到哪个的位置
+      return result;
+    }
 })
 
 app.use(router);

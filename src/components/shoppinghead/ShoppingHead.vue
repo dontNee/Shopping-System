@@ -14,7 +14,8 @@ import HeadForm from './headerform/HeadForm.vue'
         <div class="header-form-container">
             <!-- 头部搜索表单 -->
             <head-form></head-form>
-        </div>     
+        </div>
+        <div id="anchor-point"></div> 
     </div>
 </template>
 
