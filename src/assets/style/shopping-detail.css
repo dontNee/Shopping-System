@@ -1,0 +1,8 @@
+html body.skin-shopping-detail {
+    background-color: #f4f4f4;
+}
+
+html body.skin-shopping-detail .detail-bodys {
+    background-color: #fff;
+    min-height: 900px;
+}

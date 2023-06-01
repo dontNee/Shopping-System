@@ -1,0 +1,45 @@
+{
+    "timecount": {
+        "title": "京东秒杀",
+        "scheduleTime": "24:00",
+        "backgroundImage": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4a15d8883775742e3efbb850ae14def7.png"
+    },
+    "seckillList": [
+        {
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/c0ccb80d34e5471b.jpg.webp",
+            "seckillItemName": "nubia 努比亚Z50 8GB+256GB 青屿 第二代骁龙8 144HZ高刷 新35mm定制光学系统 5000mAh电池80W快充拍照5G手机",
+            "seckillItemPrice": "2899.00"
+        },
+        {
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/00444b6331aa4613.jpg.webp",
+            "seckillItemName": "小西牛 青海纯牛奶全脂牛奶常温高原牧场牛奶孕妇儿童老人早餐整箱12瓶 243ml*12",
+            "seckillItemPrice": "41.90"
+        },
+        {
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/fd000360dc0ed86b.jpg.webp",
+            "seckillItemName": "PMPM白松露酵母水乳套装补水保湿紧致抗皱祛黄提亮肤色改善暗沉熬夜肌 新白松露水100ml+乳100g",
+            "seckillItemPrice": "179.00"
+        },
+        {
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/f8e8c75c635b84ba.jpg.webp",
+            "seckillItemName": "永艺 XY椅黑武士人体工学椅电脑椅总裁椅电竞椅可躺办公椅可升降 黑武士Pro-带搁脚【包安装】",
+            "seckillItemPrice": "1399.00"
+        },
+        {
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/f0e70ce4e122e407.jpg.webp",
+            "seckillItemName": "HUAWEI P50 Pro 原色双影像单元 万象双环设计 基于鸿蒙操作系统 8GB+256GB可可茶金 华为手机",
+            "seckillItemPrice": "4958.00"
+        },
+        {
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/2ab7e92f49722ebc.jpg.webp",
+            "seckillItemName": "塞上一头牛鲜牛奶778ml  4.0g原生乳蛋白 鲜奶  牛奶 低温奶",
+            "seckillItemPrice": "28.31"
+        }
+    ],
+    "seckillBrand": {
+        "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/fe57c7cf5ae1f2ef.jpg.webp",
+        "itemInfoTitle": "京东图书专场热卖",
+        "itemInfoPromo": "爆品低至5折",
+        "itemInfoAction": "品牌秒杀 >"
+    }
+}

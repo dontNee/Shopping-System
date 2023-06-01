@@ -1,0 +1,422 @@
+[
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "50",
+        "itemId": "ec8d18da-df52-be59-c431-200b8f5dfc42",
+        "itemName": "西瓜",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4d687c11a033fd5d.jpg",
+        "itemInfo": "【精选阳面瓜，一瓜一藤】【不仅脆而且甜，入口化进心里】【留不住的夏天就吃掉】更多京选果蔬请点击~"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "30",
+        "itemId": "4a46cf6c-aa82-7e8e-1953-77e35738aca1",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/ca3c79d8367435a0.jpg",
+        "itemInfo": "斯可沁红颜草莓 99奶油草莓新鲜水果 特级果2斤装"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "40",
+        "itemId": "18f1ae87-f4d0-162a-3a08-8ddb911ca812",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/3124f86019670ef9.jpg",
+        "itemInfo": "优仙果广西武鸣沃柑 橘子柑橘新鲜水果礼盒生鲜整箱 5斤装优选果 单果55mm+"
+    },
+    {
+        "userId": "000002",
+        "userName": "李四",
+        "itemCount": "20",
+        "itemId": "4efee280-c85a-7429-1b3b-449cc5492e4d",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4137a80789ca63ec.jpg",
+        "itemInfo": "生活＆好管家四川丑橘不知火新鲜时令水果桔橘子丑柑 带箱5斤装大果80-85mm"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "0acb1c86-5174-3ae5-8edc-fc0fcd70130c",
+        "itemName": "橙子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/310b566162ebabfd.jpg",
+        "itemInfo": "甜蜜有礼湖南麻阳冰糖橙新鲜采摘橙子水果礼盒当季彩整箱 5斤 （27个左右）超值装"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "3e696c7a-b79b-1963-a65e-f7c62c8e1082",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/96dfc7f09e00a9cb.jpg",
+        "itemInfo": "愉果（yuguo）正宗丹东草莓 99红颜奶油草莓 兔年礼盒 新鲜水果 空运直达 3斤装优选果（家庭高性价比）"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "45",
+        "itemId": "f80b8968-2760-9d90-04c8-45aacf5f68d6",
+        "itemName": "椅子",
+        "itemType": "家具",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/d258b5c7c2dc106c.jpg",
+        "itemInfo": "欧凯多茶几桌椅套装藤椅三件套阳台户外椅子休闲凳子客厅户外家具组合藤编椅白色小户型大桌子80 四椅一桌金绿色 70方桌"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "50",
+        "itemId": "ec8d18da-df52-be59-c431-200b8f5dfc42",
+        "itemName": "西瓜",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4d687c11a033fd5d.jpg",
+        "itemInfo": "【精选阳面瓜，一瓜一藤】【不仅脆而且甜，入口化进心里】【留不住的夏天就吃掉】更多京选果蔬请点击~"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "30",
+        "itemId": "4a46cf6c-aa82-7e8e-1953-77e35738aca1",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/ca3c79d8367435a0.jpg",
+        "itemInfo": "斯可沁红颜草莓 99奶油草莓新鲜水果 特级果2斤装"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "40",
+        "itemId": "18f1ae87-f4d0-162a-3a08-8ddb911ca812",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/3124f86019670ef9.jpg",
+        "itemInfo": "优仙果广西武鸣沃柑 橘子柑橘新鲜水果礼盒生鲜整箱 5斤装优选果 单果55mm+"
+    },
+    {
+        "userId": "000002",
+        "userName": "李四",
+        "itemCount": "20",
+        "itemId": "4efee280-c85a-7429-1b3b-449cc5492e4d",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4137a80789ca63ec.jpg",
+        "itemInfo": "生活＆好管家四川丑橘不知火新鲜时令水果桔橘子丑柑 带箱5斤装大果80-85mm"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "0acb1c86-5174-3ae5-8edc-fc0fcd70130c",
+        "itemName": "橙子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/310b566162ebabfd.jpg",
+        "itemInfo": "甜蜜有礼湖南麻阳冰糖橙新鲜采摘橙子水果礼盒当季彩整箱 5斤 （27个左右）超值装"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "3e696c7a-b79b-1963-a65e-f7c62c8e1082",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/96dfc7f09e00a9cb.jpg",
+        "itemInfo": "愉果（yuguo）正宗丹东草莓 99红颜奶油草莓 兔年礼盒 新鲜水果 空运直达 3斤装优选果（家庭高性价比）"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "45",
+        "itemId": "f80b8968-2760-9d90-04c8-45aacf5f68d6",
+        "itemName": "椅子",
+        "itemType": "家具",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/d258b5c7c2dc106c.jpg",
+        "itemInfo": "欧凯多茶几桌椅套装藤椅三件套阳台户外椅子休闲凳子客厅户外家具组合藤编椅白色小户型大桌子80 四椅一桌金绿色 70方桌"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "50",
+        "itemId": "ec8d18da-df52-be59-c431-200b8f5dfc42",
+        "itemName": "西瓜",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4d687c11a033fd5d.jpg",
+        "itemInfo": "【精选阳面瓜，一瓜一藤】【不仅脆而且甜，入口化进心里】【留不住的夏天就吃掉】更多京选果蔬请点击~"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "30",
+        "itemId": "4a46cf6c-aa82-7e8e-1953-77e35738aca1",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/ca3c79d8367435a0.jpg",
+        "itemInfo": "斯可沁红颜草莓 99奶油草莓新鲜水果 特级果2斤装"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "40",
+        "itemId": "18f1ae87-f4d0-162a-3a08-8ddb911ca812",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/3124f86019670ef9.jpg",
+        "itemInfo": "优仙果广西武鸣沃柑 橘子柑橘新鲜水果礼盒生鲜整箱 5斤装优选果 单果55mm+"
+    },
+    {
+        "userId": "000002",
+        "userName": "李四",
+        "itemCount": "20",
+        "itemId": "4efee280-c85a-7429-1b3b-449cc5492e4d",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4137a80789ca63ec.jpg",
+        "itemInfo": "生活＆好管家四川丑橘不知火新鲜时令水果桔橘子丑柑 带箱5斤装大果80-85mm"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "0acb1c86-5174-3ae5-8edc-fc0fcd70130c",
+        "itemName": "橙子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/310b566162ebabfd.jpg",
+        "itemInfo": "甜蜜有礼湖南麻阳冰糖橙新鲜采摘橙子水果礼盒当季彩整箱 5斤 （27个左右）超值装"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "3e696c7a-b79b-1963-a65e-f7c62c8e1082",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/96dfc7f09e00a9cb.jpg",
+        "itemInfo": "愉果（yuguo）正宗丹东草莓 99红颜奶油草莓 兔年礼盒 新鲜水果 空运直达 3斤装优选果（家庭高性价比）"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "45",
+        "itemId": "f80b8968-2760-9d90-04c8-45aacf5f68d6",
+        "itemName": "椅子",
+        "itemType": "家具",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/d258b5c7c2dc106c.jpg",
+        "itemInfo": "欧凯多茶几桌椅套装藤椅三件套阳台户外椅子休闲凳子客厅户外家具组合藤编椅白色小户型大桌子80 四椅一桌金绿色 70方桌"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "50",
+        "itemId": "ec8d18da-df52-be59-c431-200b8f5dfc42",
+        "itemName": "西瓜",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4d687c11a033fd5d.jpg",
+        "itemInfo": "【精选阳面瓜，一瓜一藤】【不仅脆而且甜，入口化进心里】【留不住的夏天就吃掉】更多京选果蔬请点击~"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "30",
+        "itemId": "4a46cf6c-aa82-7e8e-1953-77e35738aca1",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/ca3c79d8367435a0.jpg",
+        "itemInfo": "斯可沁红颜草莓 99奶油草莓新鲜水果 特级果2斤装"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "40",
+        "itemId": "18f1ae87-f4d0-162a-3a08-8ddb911ca812",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/3124f86019670ef9.jpg",
+        "itemInfo": "优仙果广西武鸣沃柑 橘子柑橘新鲜水果礼盒生鲜整箱 5斤装优选果 单果55mm+"
+    },
+    {
+        "userId": "000002",
+        "userName": "李四",
+        "itemCount": "20",
+        "itemId": "4efee280-c85a-7429-1b3b-449cc5492e4d",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4137a80789ca63ec.jpg",
+        "itemInfo": "生活＆好管家四川丑橘不知火新鲜时令水果桔橘子丑柑 带箱5斤装大果80-85mm"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "0acb1c86-5174-3ae5-8edc-fc0fcd70130c",
+        "itemName": "橙子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/310b566162ebabfd.jpg",
+        "itemInfo": "甜蜜有礼湖南麻阳冰糖橙新鲜采摘橙子水果礼盒当季彩整箱 5斤 （27个左右）超值装"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "3e696c7a-b79b-1963-a65e-f7c62c8e1082",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/96dfc7f09e00a9cb.jpg",
+        "itemInfo": "愉果（yuguo）正宗丹东草莓 99红颜奶油草莓 兔年礼盒 新鲜水果 空运直达 3斤装优选果（家庭高性价比）"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "45",
+        "itemId": "f80b8968-2760-9d90-04c8-45aacf5f68d6",
+        "itemName": "椅子",
+        "itemType": "家具",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/d258b5c7c2dc106c.jpg",
+        "itemInfo": "欧凯多茶几桌椅套装藤椅三件套阳台户外椅子休闲凳子客厅户外家具组合藤编椅白色小户型大桌子80 四椅一桌金绿色 70方桌"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "50",
+        "itemId": "ec8d18da-df52-be59-c431-200b8f5dfc42",
+        "itemName": "西瓜",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4d687c11a033fd5d.jpg",
+        "itemInfo": "【精选阳面瓜，一瓜一藤】【不仅脆而且甜，入口化进心里】【留不住的夏天就吃掉】更多京选果蔬请点击~"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "30",
+        "itemId": "4a46cf6c-aa82-7e8e-1953-77e35738aca1",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/ca3c79d8367435a0.jpg",
+        "itemInfo": "斯可沁红颜草莓 99奶油草莓新鲜水果 特级果2斤装"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "40",
+        "itemId": "18f1ae87-f4d0-162a-3a08-8ddb911ca812",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/3124f86019670ef9.jpg",
+        "itemInfo": "优仙果广西武鸣沃柑 橘子柑橘新鲜水果礼盒生鲜整箱 5斤装优选果 单果55mm+"
+    },
+    {
+        "userId": "000002",
+        "userName": "李四",
+        "itemCount": "20",
+        "itemId": "4efee280-c85a-7429-1b3b-449cc5492e4d",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4137a80789ca63ec.jpg",
+        "itemInfo": "生活＆好管家四川丑橘不知火新鲜时令水果桔橘子丑柑 带箱5斤装大果80-85mm"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "0acb1c86-5174-3ae5-8edc-fc0fcd70130c",
+        "itemName": "橙子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/310b566162ebabfd.jpg",
+        "itemInfo": "甜蜜有礼湖南麻阳冰糖橙新鲜采摘橙子水果礼盒当季彩整箱 5斤 （27个左右）超值装"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "3e696c7a-b79b-1963-a65e-f7c62c8e1082",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/96dfc7f09e00a9cb.jpg",
+        "itemInfo": "愉果（yuguo）正宗丹东草莓 99红颜奶油草莓 兔年礼盒 新鲜水果 空运直达 3斤装优选果（家庭高性价比）"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "45",
+        "itemId": "f80b8968-2760-9d90-04c8-45aacf5f68d6",
+        "itemName": "椅子",
+        "itemType": "家具",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/d258b5c7c2dc106c.jpg",
+        "itemInfo": "欧凯多茶几桌椅套装藤椅三件套阳台户外椅子休闲凳子客厅户外家具组合藤编椅白色小户型大桌子80 四椅一桌金绿色 70方桌"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "50",
+        "itemId": "ec8d18da-df52-be59-c431-200b8f5dfc42",
+        "itemName": "西瓜",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4d687c11a033fd5d.jpg",
+        "itemInfo": "【精选阳面瓜，一瓜一藤】【不仅脆而且甜，入口化进心里】【留不住的夏天就吃掉】更多京选果蔬请点击~"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "30",
+        "itemId": "4a46cf6c-aa82-7e8e-1953-77e35738aca1",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/ca3c79d8367435a0.jpg",
+        "itemInfo": "斯可沁红颜草莓 99奶油草莓新鲜水果 特级果2斤装"
+    },
+    {
+        "userId": "000001",
+        "userName": "张三",
+        "itemCount": "40",
+        "itemId": "18f1ae87-f4d0-162a-3a08-8ddb911ca812",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/3124f86019670ef9.jpg",
+        "itemInfo": "优仙果广西武鸣沃柑 橘子柑橘新鲜水果礼盒生鲜整箱 5斤装优选果 单果55mm+"
+    },
+    {
+        "userId": "000002",
+        "userName": "李四",
+        "itemCount": "20",
+        "itemId": "4efee280-c85a-7429-1b3b-449cc5492e4d",
+        "itemName": "橘子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4137a80789ca63ec.jpg",
+        "itemInfo": "生活＆好管家四川丑橘不知火新鲜时令水果桔橘子丑柑 带箱5斤装大果80-85mm"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "0acb1c86-5174-3ae5-8edc-fc0fcd70130c",
+        "itemName": "橙子",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/310b566162ebabfd.jpg",
+        "itemInfo": "甜蜜有礼湖南麻阳冰糖橙新鲜采摘橙子水果礼盒当季彩整箱 5斤 （27个左右）超值装"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "30",
+        "itemId": "3e696c7a-b79b-1963-a65e-f7c62c8e1082",
+        "itemName": "草莓",
+        "itemType": "水果",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/96dfc7f09e00a9cb.jpg",
+        "itemInfo": "愉果（yuguo）正宗丹东草莓 99红颜奶油草莓 兔年礼盒 新鲜水果 空运直达 3斤装优选果（家庭高性价比）"
+    },
+    {
+        "userId": "000003",
+        "userName": "王武",
+        "itemCount": "45",
+        "itemId": "f80b8968-2760-9d90-04c8-45aacf5f68d6",
+        "itemName": "椅子",
+        "itemType": "家具",
+        "itemImageUrl": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/d258b5c7c2dc106c.jpg",
+        "itemInfo": "欧凯多茶几桌椅套装藤椅三件套阳台户外椅子休闲凳子客厅户外家具组合藤编椅白色小户型大桌子80 四椅一桌金绿色 70方桌"
+    }
+]

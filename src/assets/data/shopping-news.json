@@ -1,0 +1,99 @@
+{
+    "logoInfo": {
+        "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/jdlogo.png",
+        "imgAlt": "Logo-Img",
+        "helloword": "Hi~欢迎逛京东！"
+    },
+    "news": [
+        {
+            "level": "热议",
+            "content": "绿联KU102矮轴机械键盘，无线有线双模茶轴"
+        },
+        {
+            "level": "热评",
+            "content": "华硕灵耀14 2023：2.8K OLED高刷屏轻薄本"
+        },
+        {
+            "level": "最新",
+            "content": "每次点点机器就可以喝到鲜活的水，真的非常开心!"
+        },
+        {
+            "level": "推进",
+            "content": "20000转风扇看得见！红魔8 Pro+氘锋透明版体验"
+        }
+    ],
+    "othericons": [
+        {
+            "index": 1,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/d6f3909618c6307a.png",
+            "imgAlt": "企业购",
+            "name": "企业购"
+        },
+        {
+            "index": 2,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/97917a2daa34be0f.png",
+            "imgAlt": "礼品卡",
+            "name": "礼品卡"
+        },
+        {
+            "index": 3,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4e2bc2d96b0fbbec.png",
+            "imgAlt": "话费",
+            "name": "话费"
+        },
+        {
+            "index": 4,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/e6976f3cb30c9a8a.png",
+            "imgAlt": "白条",
+            "name": "白条" 
+        },
+        {
+            "index": 5,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/6aa3afbe6c3a0951.png",
+            "imgAlt": "游戏",
+            "name": "游戏" 
+        },
+        {
+            "index": 6,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/f1f6dc5c207329f9.png",
+            "imgAlt": "加油卡",
+            "name": "加油卡"  
+        },
+        {
+            "index": 7,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/d9d908ad415a5265.png",
+            "imgAlt": "机票",
+            "name": "机票" 
+        },
+        {
+            "index": 8,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/142ac4557cc71434.png",
+            "imgAlt": "云建站",
+            "name": "云建站"
+        },
+        {
+            "index": 9,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/14a4b81a50f2a535.png",
+            "imgAlt": "五金城",
+            "name": "五金城"
+        },
+        {
+            "index": 10,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/18668c963bf9d646.png",
+            "imgAlt": "酒店",
+            "name": "酒店"
+        },
+        {
+            "index": 11,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/0004c1b85fbf7bde.png",
+            "imgAlt": "火车票",
+            "name": "火车票"
+        },
+        {
+            "index": 12,
+            "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/dd4d9ef7ce8fc169.png",
+            "imgAlt": "电影票",
+            "name": "电影票"
+        }
+    ]
+}
