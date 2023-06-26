@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import { useStore } from 'vuex'
 import { useRouter } from 'vue-router'
 import Api from '../../api/index'
@@ -13,7 +13,6 @@ const store = useStore();
 onMounted(() => {
     initData();
 })
-
 // 初始化页面数据
 function initData() {
     // 获取导航栏列表
@@ -32,7 +31,6 @@ function getHeaderNavList() {
     };
     Api.getHeaderNavList(params, callback);
 }
-
 // 初始化项目皮肤
 function initSkin() {
     // 参数
@@ -45,16 +43,25 @@ function initSkin() {
     Api.getGlobalSkinList(params, callback);
 }
 
+
+
 // 路由导航
 const router = useRouter();
 // 事件名称与函数映射
 const eventsHandlerMap: any = {
     // 切换皮肤
-    changeSkin: () => { store.commit("changeToNextSkin"); },
+    changeSkin: () => {
+        store.commit("changeToNextSkin")
+    },
     // 返回首页
-    backHome: () => { router.push('/shopping-home') }
+    backHome: () => {
+        router.push('/shopping-home')
+    },
+    // 跳转登录
+    toLogin: () => {
+        router.push('/shopping-login')
+    }
 }
-
 // 处理点击操作
 function handleClickEvents(item: any) {
     if (item && item.click) {
@@ -62,11 +69,22 @@ function handleClickEvents(item: any) {
         Reflect.apply(eventsHandlerMap[item.click], undefined, item);
     }
 }
+
+// 获取当前用户
+const userName = computed(() => store.state.user.currentUser ? store.state.user.currentUser.userName : "");
 </script>
 
 <template>
     <div class="header-nav">
         <ul class="nav-list">
+            <li>
+                <el-button link v-if="userName">
+                    {{ userName }}
+                </el-button>
+                <el-button link v-else @click="handleClickEvents({click: 'toLogin'})">
+                    {{ "你好，请登录" }}
+                </el-button>
+            </li>
             <li v-for="item in navList">
                 <el-button link @click="handleClickEvents(item)">{{ item.navLabel }}</el-button>
             </li>

@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
+import { useStore } from 'vuex';
+import { useRouter } from 'vue-router';
 import Api from '../../api/index'
 
 // 挂载函数
@@ -33,6 +35,26 @@ function initData() {
     Api.getShoppingNews(params, callback);
 }
 
+
+// vuex
+const store = useStore();
+// vue-router
+const router = useRouter();
+// 获取当前用户
+const user = computed(() => store.state.user.currentUser);
+// 登录
+function handleSignIn() {
+    router.push("/shopping-login")
+}
+// 退出
+function handleSignOut() {
+    // 用户退出
+    store.commit("signOut");
+}
+// 注册
+function handleRegister() {
+    router.push("/shopping-register")
+}
 </script>
 
 <template>
@@ -45,12 +67,18 @@ function initData() {
                 <div class="div-logo">
                     <img :src="logoInfo.imgSrc" :alt="logoInfo.imgAlt" />
                 </div>
-                <div class="div-logo-info">
+                <div v-if="!user" class="div-logo-info">
                     <p>{{ logoInfo.helloword }}</p>
                     <p>
-                        <el-button link class="btn-info">登录</el-button>
+                        <el-button link class="btn-info" @click="handleSignIn">登录</el-button>
                         <span class="sperator"></span>
-                        <el-button link class="btn-info">注册</el-button>
+                        <el-button link class="btn-info" @click="handleRegister">注册</el-button>
+                    </p>
+                </div>
+                <div v-else class="div-logo-info">
+                    <p class="username">{{ `Hi， ${user.userName}` }}</p>
+                    <p>
+                        <el-button link class="btn-info" @click="handleSignOut">退出</el-button>
                     </p>
                 </div>
             </div>
@@ -132,6 +160,13 @@ function initData() {
 
         .div-logo-info {
             padding: 0 10px;
+
+            .username {
+                white-space: nowrap;
+                max-width: 115px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
 
             .sperator {
                 display: inline-block;

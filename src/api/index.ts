@@ -15,6 +15,7 @@ import picturezoomJsonData from '../assets/data/picture-zoom.json'
 import shoppingFormJsonData from '../assets/data/shopping-form.json'
 import chinaJsonData from '../assets/data/addr.json'
 import pictureScrollJsonData from '../assets/data/picture-scroll.json'
+import shoppingLoginJsonData from '../assets/data/shopping-login.json'
 
 const devMode: boolean = true;
 
@@ -204,5 +205,25 @@ export default {
         const chinaData = chinaJsonData;
 
         return callback(chinaData);
+    },
+
+    // 获取登录页面配置
+    getShoppingLoginConfig(params: any, callback: (x: any) => void) {
+
+        const shoppingLoginConf = shoppingLoginJsonData;
+
+        return callback(shoppingLoginConf);
+    },
+
+    // 用户登录
+    doUserLogin(params: any, callback: (x: any) => void) {
+
+        apiAxios.post("api/user/signin", params, callback, "43.138.104.32");
+    },
+
+    // 用户注册
+    doUserRegister(params: any, callback: (x: any) => void) {
+
+        apiAxios.post("api/user/signup", params, callback, "43.138.104.32");
     }
 }

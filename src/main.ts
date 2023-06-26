@@ -52,4 +52,10 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component)
 }
 
+// 注册全局属性
+import common from "./common/index";
+
+app.provide('common', common);
+
 app.mount('#app')
+

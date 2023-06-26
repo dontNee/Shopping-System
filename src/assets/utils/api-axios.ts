@@ -1,12 +1,13 @@
 import axios from "axios"
 
 // 请求通用方法
-function apiAxios(method: string, url: string, params: any, callback: any) {
+function apiAxios(method: string, url: string, params: any, callback: any, hostName?: string) {
     // Axios Api
     axios({
         method: method,
         url: url,
-        data: params
+        data: params,
+        baseURL: `http://${hostName ? hostName : window.location.hostname}/`
     })
     .then(res => {
         if (res && res.status == 200) {
@@ -33,13 +34,13 @@ function apiAxios(method: string, url: string, params: any, callback: any) {
 
 export default {
     // get函数
-    get(url: string, params: any, callback: any) {
+    get(url: string, params: any, callback: any, hostName?: string) {
         // 调用
-        apiAxios("get", url, params, callback);
+        apiAxios("get", url, params, callback, hostName);
     },
     // post函数
-    post(url: string, params: any, callback: any) {
+    post(url: string, params: any, callback: any, hostName?: string) {
         // 调用post
-        apiAxios("post", url, params, callback);
+        apiAxios("post", url, params, callback, hostName);
     }
 }

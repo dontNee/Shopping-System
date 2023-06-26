@@ -13,6 +13,20 @@ const routes: Array<any> = [
     {
         path: '/shopping-detail',
         component: ShoppingDetail
+    },
+    {
+        path: '/shopping-login',
+        component: () => import('./pages/ShoppingLogin.vue'),
+        meta: {
+            fullPage: true // 是否需要通用的页头和页脚
+        }
+    },
+    {
+        path: '/shopping-register',
+        component: () => import('./pages/ShoppingRegister.vue'),
+        meta: {
+            fullPage: true // 是否需要通用的页头和页脚
+        }
     }
 ];
 
