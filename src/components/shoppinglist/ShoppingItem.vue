@@ -77,6 +77,7 @@ function handleShoppingItemClick() {
             height: 150px;
             margin: 30px auto;
             display: inline-block;
+            cursor: pointer;
         }
     }
 

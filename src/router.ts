@@ -27,6 +27,23 @@ const routes: Array<any> = [
         meta: {
             fullPage: true // 是否需要通用的页头和页脚
         }
+    },
+    {
+        path: '/shopping-userhome',
+        component: () => import('./pages/ShoppingUser.vue'),
+        children: [
+            {
+                path: "my-order",
+                component: () => import('./components/shoppinguser/MyOrder.vue')
+            },
+            {
+                path: "my-shop",
+                component: () => import('./components/shoppinguser/MyShop.vue')
+            }
+        ],
+        meta: {
+            hideHeader: true // 隐藏通用的页头
+        }
     }
 ];
 

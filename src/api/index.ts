@@ -16,22 +16,11 @@ import shoppingFormJsonData from '../assets/data/shopping-form.json'
 import chinaJsonData from '../assets/data/addr.json'
 import pictureScrollJsonData from '../assets/data/picture-scroll.json'
 import shoppingLoginJsonData from '../assets/data/shopping-login.json'
+import AsideMenuJsonData from '../assets/data/aside-menu.json'
 
 const devMode: boolean = true;
 
 export default {
-    // 获取商品列表
-    getShoppingList(params: any, callback: (x: Array<any>) => void): void {
-
-        if (devMode) {
-
-            const shoppingList: Array<any> = shoppingListJsonData;
-
-            return callback(shoppingList);
-        }
-        apiAxios.get('/ShoppingList', params, callback)
-    },
-
     // 获取导航条列表
     getHeaderNavList(params: any, callback: (x: Array<any>) => void) {
         if (devMode) {
@@ -225,5 +214,40 @@ export default {
     doUserRegister(params: any, callback: (x: any) => void) {
 
         apiAxios.post("api/user/signup", params, callback, "43.138.104.32");
+    },
+
+    // 获取商品列表
+    getShoppingList(params: any, callback: (x: any) => void): void {
+
+        if (devMode) {
+
+            const shoppingList: any = shoppingListJsonData;
+
+            // return callback(shoppingList);
+        }
+        apiAxios.get('/api/good/getAllGoods', params, callback, "43.138.104.32");
+    },
+
+    // 获取侧边栏菜单
+    getAsideMenu(params: any, callback: (x: any) => void) {
+
+        if (devMode) {
+
+            const asideMenuJsonData = AsideMenuJsonData;
+
+            return callback(asideMenuJsonData);
+        }
+    },
+
+    // 添加商品
+    addGoods(params: any, callback: (x: any) => void) {
+
+        apiAxios.post("api/good/uploadGoods", params, callback, "43.138.104.32");
+    },
+    
+    // 获取用户商品
+    getGoodsByUser(params: any, callback: (x: any) => void) {
+
+        apiAxios.get(`api/good/getGoodsByUser?userId=${params.userId}`, null, callback, "43.138.104.32");
     }
 }

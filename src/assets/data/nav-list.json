@@ -1,9 +1,13 @@
 [
     {
-        "navLabel": "我的店铺"
+        "navLabel": "我的店铺",
+        "click": "toUserPage",
+        "route": "/shopping-userhome/my-shop"
     },
     {
-        "navLabel": "我的订单"
+        "navLabel": "我的订单",
+        "click": "toUserPage",
+        "route": "/shopping-userhome/my-order"
     },
     {
         "navLabel": "切换皮肤",

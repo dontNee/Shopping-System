@@ -9,11 +9,12 @@ const route = useRoute();
 
 // 是否需要页头页脚
 const hasHeaderFooter = computed(() => !route.meta.fullPage);
-
+// 是否显示页头
+const showHeader = computed(() => !route.meta.hideHeader);
 </script>
 
 <template>
-  <header v-show="hasHeaderFooter">
+  <header v-show="hasHeaderFooter && showHeader">
     <shopping-head></shopping-head>
   </header>
 

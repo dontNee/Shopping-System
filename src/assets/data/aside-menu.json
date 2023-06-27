@@ -1,0 +1,78 @@
+[
+    {
+        "title": "订单中心",
+        "items": [
+            {
+                "title": "我的订单",
+                "route": "/shopping-userhome/my-order"
+            },
+            {
+                "title": "我的店铺",
+                "route": "/shopping-userhome/my-shop"
+            },
+            {
+                "title": "评价晒单"
+            },
+            {
+                "title": "我的常购商品"
+            },
+            {
+                "title": "代下单"
+            }
+        ]
+    },
+    {
+        "title": "关注中心",
+        "items": [
+            {
+                "title": "关注的商品"
+            },
+            {
+                "title": "关注的店铺"
+            },
+            {
+                "title": "关注的活动"
+            }
+        ]
+    },
+    {
+        "title": "资产中心",
+        "items": [
+            {
+                "title": "小金库"
+            },
+            {
+                "title": "京东白条"
+            },
+            {
+                "title": "领货码"
+            },
+            {
+                "title": "余额"
+            },
+            {
+                "title": "红包"
+            }
+        ]
+    },
+    {
+        "title": "特色业务",
+        "items": [
+            {
+                "title": "企业租赁"
+            },
+            {
+                "title": "我的营业厅"
+            },
+            {
+                "title": "京东通信"
+            },
+            {
+                "title": "定期购"
+            },
+            {
+                "title": "我的回收单"
+            }
+        ]
+    }
+]

@@ -3,6 +3,7 @@ import { ref, onMounted, computed } from 'vue'
 import { useStore } from 'vuex'
 import { useRouter } from 'vue-router'
 import Api from '../../api/index'
+import { ElMessage } from 'element-plus';
 
 // 导航条数据
 const navList = ref([] as Array<any>);
@@ -43,8 +44,6 @@ function initSkin() {
     Api.getGlobalSkinList(params, callback);
 }
 
-
-
 // 路由导航
 const router = useRouter();
 // 事件名称与函数映射
@@ -60,13 +59,20 @@ const eventsHandlerMap: any = {
     // 跳转登录
     toLogin: () => {
         router.push('/shopping-login')
+    },
+    // 用户主页
+    toUserPage: (item: any) => {
+        if (!userName.value) {
+            return ElMessage.warning("您好，请先登录");
+        }
+        router.push(item.route)
     }
 }
 // 处理点击操作
 function handleClickEvents(item: any) {
     if (item && item.click) {
         // 处理点击事件
-        Reflect.apply(eventsHandlerMap[item.click], undefined, item);
+        Reflect.apply(eventsHandlerMap[item.click], undefined, [item]);
     }
 }
 
