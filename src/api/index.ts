@@ -17,7 +17,7 @@ import chinaJsonData from '../assets/data/addr.json'
 import pictureScrollJsonData from '../assets/data/picture-scroll.json'
 import shoppingLoginJsonData from '../assets/data/shopping-login.json'
 import AsideMenuJsonData from '../assets/data/aside-menu.json'
-
+// 开发模式
 const devMode: boolean = true;
 
 export default {
@@ -207,13 +207,13 @@ export default {
     // 用户登录
     doUserLogin(params: any, callback: (x: any) => void) {
 
-        apiAxios.post("api/user/signin", params, callback, "43.138.104.32");
+        apiAxios.post("api/user/signin", params, callback, import.meta.env.DEV ? "43.138.104.32" : "");
     },
 
     // 用户注册
     doUserRegister(params: any, callback: (x: any) => void) {
 
-        apiAxios.post("api/user/signup", params, callback, "43.138.104.32");
+        apiAxios.post("api/user/signup", params, callback, import.meta.env.DEV ? "43.138.104.32" : "");
     },
 
     // 获取商品列表
@@ -225,7 +225,7 @@ export default {
 
             // return callback(shoppingList);
         }
-        apiAxios.get('/api/good/getAllGoods', params, callback, "43.138.104.32");
+        apiAxios.get('/api/good/getAllGoods', params, callback, import.meta.env.DEV ? "43.138.104.32" : "");
     },
 
     // 获取侧边栏菜单
@@ -242,12 +242,12 @@ export default {
     // 添加商品
     addGoods(params: any, callback: (x: any) => void) {
 
-        apiAxios.post("api/good/uploadGoods", params, callback, "43.138.104.32");
+        apiAxios.post("api/good/uploadGoods", params, callback, import.meta.env.DEV ? "43.138.104.32" : "");
     },
     
     // 获取用户商品
     getGoodsByUser(params: any, callback: (x: any) => void) {
 
-        apiAxios.get(`api/good/getGoodsByUser?userId=${params.userId}`, null, callback, "43.138.104.32");
+        apiAxios.get(`api/good/getGoodsByUser?userId=${params.userId}`, null, callback, import.meta.env.DEV ? "43.138.104.32" : "");
     }
 }
