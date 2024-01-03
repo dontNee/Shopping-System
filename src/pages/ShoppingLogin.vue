@@ -42,7 +42,7 @@ function handleBackHome() {
         
         <el-header height="110px">
             <div class="logo" @click="handleBackHome">
-                <img src="http://43.138.104.32/global-assets/img/vue/jd-shopping/logo-201305-b.png" />
+                <img class="logo-img" src="http://43.138.104.32/global-assets/img/vue/jd-shopping/shopping_logo_7.jpeg" />
                 <img src="http://43.138.104.32/global-assets/img/vue/jd-shopping/l-icon.png" />
             </div>
         </el-header>
@@ -75,11 +75,16 @@ function handleBackHome() {
         position: absolute;
         top: 100%;
         left: 15%;
-        transform: translateY(-125%);
+        transform: translateY(-100%);
         cursor: pointer;
 
         img {
             margin: 0 5px;
+            height: 60px;
+
+            &.logo-img {
+                height: 100px;
+            }
         }
     }
 

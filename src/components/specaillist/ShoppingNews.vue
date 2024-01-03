@@ -95,7 +95,7 @@ function handleRegister() {
         <div class="shopping-message">
             <!-- 消息头部  -->
             <div class="message-header">
-                <span class="message-title">京东快报</span>
+                <span class="message-title">商城快报</span>
 
                 <el-button link class="btn-info message-more">更多  ></el-button>
             </div>

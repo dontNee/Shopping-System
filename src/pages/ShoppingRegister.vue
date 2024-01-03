@@ -42,7 +42,7 @@ function backHome() {
 
         <el-header height="110px">
             <div class="logo" @click="backHome">
-                <img src="http://43.138.104.32/global-assets/img/vue/jd-shopping/logo-201305-b.png" />
+                <img src="http://43.138.104.32/global-assets/img/vue/jd-shopping/shopping_logo_7.jpeg" />
                 <span class="title">{{ "欢迎注册" }}</span>
             </div>
         </el-header>
@@ -75,12 +75,12 @@ function backHome() {
         .logo {
             position: absolute;
             top: 100%;
+            transform: translateY(-100%);
             left: 15%;
-            transform: translateY(-125%);
             cursor: pointer;
 
             img {
-                width: 160px;
+                height: 100px;
             }
 
             .title {

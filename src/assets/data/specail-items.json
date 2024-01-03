@@ -1,14 +1,14 @@
 [
     {
-        "imgAlt": "京东特选-小米手机",
+        "imgAlt": "商城特选-小米手机",
         "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/1f328ec6ec7a0cf4.png.webp"
     },
     {
-        "imgAlt": "京东特选-京东电脑",
+        "imgAlt": "商城特选-商城电脑",
         "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/cf35f0e1c2bd7ed3.jpg.webp"
     },
     {
-        "imgAlt": "京东特选-新客有礼",
+        "imgAlt": "商城特选-新客有礼",
         "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/3a61a76506df041f.png.webp"
     }
 ]

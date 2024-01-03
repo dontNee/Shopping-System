@@ -1,8 +1,8 @@
 {
     "logoInfo": {
-        "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/jdlogo.png",
+        "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/shopping_logo_7.jpeg",
         "imgAlt": "Logo-Img",
-        "helloword": "Hi~欢迎逛京东！"
+        "helloword": "Hi~欢迎访问！"
     },
     "news": [
         {

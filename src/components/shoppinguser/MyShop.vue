@@ -166,7 +166,7 @@ onMounted(() => {
                         <el-upload
                             ref="uploadRef"
                             class="goods-img-uploader"
-                            action="http://43.138.104.32:80/api/good/uploadImg"
+                            :action="`${Api.getCurrentOrigin()}/api/good/uploadImg`"
                             :on-success="handleUploadSuccess"    
                         >
                             <img v-if="formModel.imgUrl" :src="formModel.imgUrl" class="avatar" />

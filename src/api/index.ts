@@ -249,5 +249,10 @@ export default {
     getGoodsByUser(params: any, callback: (x: any) => void) {
 
         apiAxios.get(`api/good/getGoodsByUser?userId=${params.userId}`, null, callback, import.meta.env.DEV ? "43.138.104.32" : "");
+    },
+
+    // 获取当前服务器地址，解决跨域问题
+    getCurrentOrigin(): string {
+        return import.meta.env.DEV ? "http://43.138.104.32" : window.location.origin;
     }
 }

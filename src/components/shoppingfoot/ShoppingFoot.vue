@@ -11,6 +11,9 @@ const helpList = ref([] as Array<any>);
 // 关于我们
 const moreAboutList = ref([] as Array<any>);
 
+// 声明
+const description = ref("");
+
 // 挂载函数
 onMounted(() => {
     initData();
@@ -28,6 +31,8 @@ function initData() {
         helpList.value = result.morehelper;
         // 更多关于
         moreAboutList.value = result.moreabout;
+        // 声明
+        description.value = result.description;
     };
     Api.getShoppingFoot(params, callback);
 }
@@ -65,6 +70,23 @@ function initData() {
             <ul>
                 <li v-for="item in moreAboutList">
                     <span>{{ item }}</span>
+                </li>
+            </ul>
+            <p class="description">{{ description }}</p>
+        </div>
+
+        <div class="beian_info">
+            <ul>
+                <li>
+                    <a target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index">
+                        <span>备案号: 豫ICP备2023014596号-1</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41128202411413">
+                        <img src="http://43.138.104.32:80/global-assets/img/vue/jd-shopping/beian_icon.png"/>
+                        <span>豫公网安备 41128202411413号</span>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -179,6 +201,41 @@ function initData() {
 
                     span {
                         border-left: 1px solid #ccc;
+                    }
+                }
+            }
+        }
+
+        .description {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-top: 8px;
+        }
+    }
+
+    .beian_info {
+        color: #666;
+        font-size: 13px;
+        margin-top: 20px;
+
+        ul {
+            text-align: center;
+            list-style: none;
+
+            li {
+                display: inline-block;
+                height: 12px;
+                line-height: 12px;
+                margin: 0 8px;
+
+                a {
+                    display:inline-block;
+                    text-decoration:none;
+                
+                    img {
+                        vertical-align: text-top;
+                        margin-right: 3px;
                     }
                 }
             }

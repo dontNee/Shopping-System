@@ -1,6 +1,6 @@
 {
     "timecount": {
-        "title": "京东秒杀",
+        "title": "商城秒杀",
         "scheduleTime": "24:00",
         "backgroundImage": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/4a15d8883775742e3efbb850ae14def7.png"
     },
@@ -38,7 +38,7 @@
     ],
     "seckillBrand": {
         "imgSrc": "http://43.138.104.32:80/global-assets/img/vue/jd-shopping/fe57c7cf5ae1f2ef.jpg.webp",
-        "itemInfoTitle": "京东图书专场热卖",
+        "itemInfoTitle": "商城图书专场热卖",
         "itemInfoPromo": "爆品低至5折",
         "itemInfoAction": "品牌秒杀 >"
     }

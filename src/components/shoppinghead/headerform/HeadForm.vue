@@ -60,7 +60,8 @@ function initData() {
         width: 190px;
 
         img {
-            width: 100%;
+            width: 190px;
+            height: 120px;
         }
     }
 
